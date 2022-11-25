@@ -1,0 +1,44 @@
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  z-index: 1;
+}
+
+.home__container {
+  width: 100%;
+  z-index: -1;
+  background-color: rgb(203, 218, 241);
+}
+
+.carousel {
+  margin-bottom: -17%;
+  position: relative;
+  z-index: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  padding: 0 0 250px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+.wrapper {
+  z-index: -1;
+}
+
+.home__image {
+  width: 100%;
+  z-index: 0;
+  position: relative;
+  margin-bottom: -20%;
+  mask-image: linear-gradient(
+    0deg,
+    transparent,
+    rgb(52, 8, 250, 1),
+    rgb(23, 0, 228)
+  );
+}
